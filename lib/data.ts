@@ -6,6 +6,8 @@
 import corpcommentImg from "@/public/corpcomment.png";
 import reyben from "@/public/reyben-shery.png";
 import quotes from "@/public/quotes.png";
+import sushi from "@/public/sushi.png";
+import JurnL from "@/public/JurnL.png";
 
 export const links = [
   {
@@ -63,6 +65,29 @@ export const links = [
 
 export const projectsData = [
   {
+    title: "JurnL AI !",
+    description: "An animated Ai intrgrated Journalling App with mood rating.",
+    tags: [
+      "T3 Stack",
+      "Prisma",
+      "Next JS",
+      "Next Auth",
+      "TypeScript",
+      "React",
+      "Vite",
+      "Tailwind",
+    ],
+    imageUrl: JurnL,
+    projectUrl: "https://jurnl-ai.vercel.app/",
+  },
+  {
+    title: "Shushi Boy",
+    description: "An animated Shushi Selling Website.",
+    tags: ["HTML", "CSS", "JavaScript"],
+    imageUrl: shushi,
+    projectUrl: "https://sushi-boy.vercel.app/",
+  },
+  {
     title: "ReyBen",
     description:
       "A beautful animated page with help of Shery.js. Working Only on Desktop",
@@ -78,14 +103,6 @@ export const projectsData = [
     imageUrl: quotes,
     projectUrl: "https://quotes-react-app-sigma.vercel.app/",
   },
-  // {
-  //   title: "Word Analytics",
-  //   description:
-  //     "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-  //   tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-  //   imageUrl: wordanalyticsImg,
-  //   projectUrl: "",
-  // },
 ] as const;
 
 export const skillsData = [
