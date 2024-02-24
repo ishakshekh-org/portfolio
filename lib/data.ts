@@ -84,7 +84,7 @@ export const projectsData = [
     title: "Shushi Boy",
     description: "An animated Shushi Selling Website.",
     tags: ["HTML", "CSS", "JavaScript"],
-    imageUrl: shushi,
+    imageUrl: sushi,
     projectUrl: "https://sushi-boy.vercel.app/",
   },
   {
